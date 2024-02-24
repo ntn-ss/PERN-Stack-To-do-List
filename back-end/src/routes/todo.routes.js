@@ -18,5 +18,8 @@ module.exports = (express, pool) => {
     // delete a to-do
     router.delete('/:id', todoService.deleteTodo);
 
+    // delete all to-dos
+    router.delete('/', todoService.deleteAllTodos);
+
     return router;
 };
