@@ -4,7 +4,8 @@
   "description": "Simple To-Do app built using the PERN Stack (PostgreSQL, Express, React and Node.js)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
